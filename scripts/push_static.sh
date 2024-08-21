@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Push static to AWS S3
-
+# edit test
 docker run --rm \
     -e SECRET_KEY=dummy \
     -e AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID} \
